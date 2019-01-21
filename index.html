@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+    crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+    crossorigin="anonymous">
+
+<style>
+header.masthead {
+  position: relative;
+  overflow: hidden;
+  padding-top: calc(7rem + 72px);
+  padding-bottom: 7rem;
+  background: (linear, left bottom, left top, from(#ff6a00), to(#ee0979));
+  background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+header.masthead .masthead-content {
+  z-index: 1;
+  position: relative;
+}
+
+header.masthead .masthead-content .masthead-heading {
+  font-size: 4rem;
+}
+
+header.masthead .masthead-content .masthead-subheading {
+  font-size: 2rem;
+}
+
+header.masthead .bg-circle {
+  z-index: 0;
+  position: absolute;
+  border-radius: 100%;
+  background: (linear, left bottom, left top, from(#ee0979), to(#ff6a00));
+  background: linear-gradient(0deg, #ee0979 0%, #ff6a00 100%);
+}
+
+header.masthead .bg-circle-1 {
+  height: 90rem;
+  width: 90rem;
+  bottom: -55rem;
+  left: -55rem;
+}
+
+header.masthead .bg-circle-2 {
+  height: 50rem;
+  width: 50rem;
+  top: -25rem;
+  right: -25rem;
+}
+
+header.masthead .bg-circle-3 {
+  height: 20rem;
+  width: 20rem;
+  bottom: -10rem;
+  right: 5%;
+}
+
+header.masthead .bg-circle-4 {
+  height: 30rem;
+  width: 30rem;
+  top: -5rem;
+  right: 35%;
+}
+
+@media (min-width: 992px) {
+  header.masthead {
+    padding-top: calc(10rem + 55px);
+    padding-bottom: 10rem;
+  }
+
+  header.masthead .masthead-content .masthead-heading {
+    font-size: 6rem;
+  }
+
+  header.masthead .masthead-content .masthead-subheading {
+    font-size: 4rem;
+  }
+}
+
+#navegacion {
+  background-color: rgba(0, 0, 0, 0.7)
+}
+
+.rounded-circle{
+      width: 354px;
+      height: 354px
+}
+
+#piedepagina{
+  background-color: black;
+}
+
+.dropdown-toggle::after {
+  display:none;
+}
+
+#smabajo{
+  top: 71.50px;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: none;
+}
+
+.rounded-pill{
+  width: 200px;
+  height: 70px;
+  background-color: #ee0979;
+  border: none;
+}
+  </style>
+
+  <title>Bootstrap</title>
+</head>
+
+<body>
+  <div class="d-flex mb-3 fixed-top pr-5 pl-0 col-12" id="navegacion">
+    <div class="mr-auto pl-5 p-2 text-white m-3 font-weight-bold">START BOOTSTRAP</div>
+    <div class="dropdown d-md-none d-block m-3">
+      <button class="btn bg-transparent border-white" type="button" id="boton">
+        <i class="fas fa-bars" style="color:white;"></i></button>
+    </div>
+    <div class="p-2 m-3 d-none d-md-block"><a href="#" class="text-white">Sing Up</a></div>
+    <div class="p-2 m-3 d-none d-md-block"><a href="#" class="text-white">Login</a></div>
+
+    <div class="mb-3 pr-5 pl-5 container-fluid d-md-none" id="smabajo">
+      <div class="p-2 m-3"><a href="#">Sing Up</a></div>
+      <div class="p-2 m-3"><a href="#">Login</a></div>
+    </div>
+  </div>
+  <header class="masthead text-center text-white mb-5 col-12 container-fluid ">
+    <div class="masthead-content">
+      <div class="container">
+        <h1 class="masthead-heading mb-0">One Page Wonder</h1>
+        <h2 class="masthead-subheading mb-0">Will Rock Your Socks Off</h2>
+      </div>
+      <div class="row d-flex justify-content-center">
+        <a href="#" class="btn btn-primary btn-xl rounded-pill mt-5 d-flex align-items-center d-flex justify-content-center">
+          <h3>Learn More</h3>
+        </a>
+      </div>
+    </div>
+    <div class="bg-circle-1 bg-circle"></div>
+    <div class="bg-circle-2 bg-circle"></div>
+    <div class="bg-circle-3 bg-circle"></div>
+    <div class="bg-circle-4 bg-circle"></div>
+  </header>
+
+  <section>
+    <div class="container d-flex justify-content-center my-5 p-0">
+      <div class="row col-12 d-flex align-items-center d-flex justify-content-center p-0">
+        <div class="col-12 d-md-none d-block p-5">
+          <img class="rounded-circle" style="width: 234px; height: 234px;" src="https://www.thoughtco.com/thmb/TW0uaOONx-IrDQfw495WwKkJ0Ag=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/people-enjoying-music-concert-with-hands-raised-at-night-589722553-59c6f64a054ad900114501dd.jpg">
+        </div>
+        <div class="col-md-6 col-12 p-5">
+          <h2 class="display-4 font-weight-bold">
+            For those about to rock...
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse
+            assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae
+            adipisci,
+            beatae obcaecati
+          </p>
+        </div>
+        <div class="col-6 d-md-block d-none">
+          <img class="rounded-circle float-right" src="https://www.thoughtco.com/thmb/TW0uaOONx-IrDQfw495WwKkJ0Ag=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/people-enjoying-music-concert-with-hands-raised-at-night-589722553-59c6f64a054ad900114501dd.jpg">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container d-flex justify-content-center my-5 p-0">
+      <div class="row col-12 d-flex align-items-center p-0">
+        <div class="col-12 d-block d-md-none p-5">
+          <img class="rounded-circle" style="width: 234px; height: 234px;" src="http://dreamreader.net/wp-content/uploads/2015/01/Rock-Music-titlea.jpg">
+        </div>
+        <div class="col-md-6 d-md-block d-none">
+          <img class="rounded-circle" src="http://dreamreader.net/wp-content/uploads/2015/01/Rock-Music-titlea.jpg">
+        </div>
+        <div class="col-md-6 col-12p-5">
+          <h2 class="display-4 font-weight-bold">
+            We salute you!
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse
+            assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae
+            adipisci,
+            beatae obcaecati
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container d-flex justify-content-center my-5 p-0">
+      <div class="row col-12 d-flex align-items-center p-0">
+        <div class="col-6 d-md-none d-block p-5">
+          <img class="rounded-circle" style="width: 234px; height: 234px;" src="https://www.seminolehardrockhollywood.com/files/1637/client_WEBSITE-Nightlife-Entertainment1.jpg">
+        </div>
+        <div class="col-md-6 col-12 p-5">
+          <h2 class="display-4 font-weight-bold">
+            Let there be rock!
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse
+            assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae
+            adipisci,
+            beatae obcaecati
+          </p>
+        </div>
+        <div class="col-6 d-md-block d-none">
+          <img class="rounded-circle float-right" src="https://www.seminolehardrockhollywood.com/files/1637/client_WEBSITE-Nightlife-Entertainment1.jpg">
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container-fluid h-50 p-3" id="piedepagina">
+      <p class="text-center text-white small">Copyright © Your Website 2018</p>
+    </div>
+  </footer>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    crossorigin="anonymous"></script>
+
+  <script>
+    var resultado = $('#smabajo');
+
+    $('#boton').click(function () {
+      resultado.css(display = 'block');
+      resultado.slideToggle('slow');
+
+    });
+  </script>
+</body>
+
+</html>
